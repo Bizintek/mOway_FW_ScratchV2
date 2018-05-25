@@ -1,0 +1,35 @@
+#Ignore List for Microchips MPLabX IDE
+#Form of netbeans with vendor specific changes
+#Taken from zeha on GIST https://gist.github.com/zeha/5999375
+
+*.d
+*.pre
+*.p1
+*.lst
+*.sym
+*.obj
+*.o
+*.sdb
+*.obj.dmp
+html/
+mOway_FW_ScratchV2/nbproject/private/
+mOway_FW_ScratchV2/nbproject/Package-default.bash
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+funclist
+mOway_FW_ScratchV2/nbproject/Makefile-genesis.properties
+disassembly/
+*.map
+*.o.d
+*.err
+*.mk
+
+mOway_FW_ScratchV2/build/*
+mOway_FW_ScratchV2/debug/*
+mOway_FW_ScratchV2/dist/*
+
+
